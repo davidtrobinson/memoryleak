@@ -17,14 +17,14 @@ dependencies {
 
     compile 'io.vertx:vertx-core'
     compile 'io.vertx:vertx-micrometer-metrics'
-    compile 'io.micrometer:micrometer-registry-influx:1.0.5'
+    compile 'io.micrometer:micrometer-registry-influx:1.1.2'
     testCompile group: 'junit', name: 'junit', version: '4.12'
 }
 
 vertx {
     //This supplies the version for most of the vertx dependencies. Some get missed though, so check the dependencies
     //section and update the version there if you update this.
-    vertxVersion = '3.5.3'
+    vertxVersion = '3.6.2'
     launcher = 'com.vertx.micrometer.Launcher'
     mainVerticle = 'com.vertx.micrometer.MainVerticle'
 }
