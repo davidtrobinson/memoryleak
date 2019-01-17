@@ -1,6 +1,8 @@
 # Vertx Micrometer Memory Leak
 This project is used to reproduce a memory leak when using micrometer and influx in a vert.x project.
 
+This project no longer reproduces the memory leak since updating the libraries that have been fixed. 
+
 ## Requirements
  * Java 11
  * gradle (gradlew command should download this for you)
